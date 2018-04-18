@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.video" >
+
+    <application android:theme="@style/AppTheme">
+        <activity android:name="com.video.LauncherTestActivity" />
+        <activity
+            android:name="com.video.MainActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
